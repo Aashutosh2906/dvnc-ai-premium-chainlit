@@ -1,0 +1,32 @@
+[project]
+# Project name
+name = "DVNC.ai - Leonardo's Intelligence"
+
+# Welcome message
+welcome_message = """# 🎨 Welcome to DVNC.ai
+
+**Leonardo's Intelligence. Reimagined for the 21st Century.**
+
+I synthesize insights from multiple disciplines just as Leonardo da Vinci did:
+- ⚙️ **Physics** - Fluid dynamics, mechanics, structures
+- 🦾 **Biomechanics** - Natural movement and force systems  
+- 🧬 **Anatomy** - Human proportions and biological design
+
+Share your engineering or design challenge, and I'll help you think like Leonardo!
+"""
+
+# UI Customization
+[UI]
+theme = "dark"
+name = "DVNC.ai"
+
+[UI.theme]
+primary = "#8B4513"  # Renaissance brown
+secondary = "#DAA520"  # Golden ratio gold
+background = "#1a1a1a"
+paper = "#2d2d2d"
+
+[features]
+enable_telemetry = false
+auto_expand_messages = true
+hide_cot = false  # Show chain of thought
